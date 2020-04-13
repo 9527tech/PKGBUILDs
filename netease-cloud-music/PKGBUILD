@@ -11,7 +11,7 @@ license=('custom')
 depends=('qcef' 'vlc')
 source=(
 	"netease-cloud-music_${pkgver}_amd64_ubuntu_${_pkgdate}.deb::http://d1.music.126.net/dmusic/netease-cloud-music_${pkgver}_amd64_ubuntu_${_pkgdate}.deb"
-	"http://music.163.com/html/web2/service.html"
+	"service.html::http://music.163.com/html/web2/service.html"
 )
 md5sums=('1f47c7dc3d9ce46da8099e539ee8a74d'
          'SKIP')
